@@ -27,7 +27,7 @@ function submitForm() {
     const formElement = document.getElementById("myForm");
     const formData = new FormData(formElement);
 
-    fetch(`https://docs.google.com/forms/d/e/1FAIpQLSeBCLm5-ZrAGnUKr---IedNgQsxYbIUwjbLHjXaxyueYNPfWA/formResponse`, {
+fetch(`https://docs.google.com/forms/d/e/1FAIpQLSeBCLm5-ZrAGnUKr---IedNgQsxYbIUwjbLHjXaxyueYNPfWA/formResponse`, {
         method: "POST",
         body: formData,
     })
